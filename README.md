@@ -2,7 +2,16 @@
 teste para a empresa Txai
 
 #Banco de Dados
-- Para o banco de dados, escolhi o sqlite por já ter trabalhado com ele e é fácil conectar à um servidor NodeJS.
+- Para o banco de dados, escolhi o postgres (está hospedado no Heroku) por já ter trabalhado com ele e é fácil conectar à um servidor NodeJS.
+
+## Para testar
+(API)
+vá a pasta server e de um _npm install__
+depois execute o __npm start__ ,estará rodando na porta 3333
+
+(Frontend)
+vá a pasta frontend _npm install__
+depois execute o __npm start__, estará rodando na porta 3000
 
 TABELAS
 
