@@ -13,6 +13,8 @@ depois execute o __npm start__ ,estará rodando na porta 3333
 vá a pasta frontend e de um __npm install__
 depois execute o __npm start__, estará rodando na porta 3000
 
+- Por algum acaso as funções da biblioteca bcrypt estão lentas, então talvez o login demore para acontecer.
+
 ## TABELAS
 
 Usuários
