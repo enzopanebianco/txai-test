@@ -1,0 +1,13 @@
+const express = require( "express")
+const UserController = require('./controllers/UserController')
+const ProductController = require('./controllers/ProductController')
+const LoginController = require('./controllers/LoginController')
+const cors = require('cors')
+
+const app = express()
+app.use(cors())
+app.use(express.json())
+app.use('/users',UserController)
+app.use('/products',ProductController)
+app.use('/login',LoginController)
+app.listen(3333,()=>console.log('APP running na porta 3333'))
